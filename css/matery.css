@@ -601,10 +601,10 @@ header .go-back i {
         /* background: linear-gradient(45deg, rgba(156, 39, 176, 0.75) 0%, rgba(156, 39, 176, 0.65) 100%); */
         /* background: -moz-linear-gradient(135deg, rgba(156, 39, 176, 0.75) 0%, rgba(156, 39, 176, 0.65) 100%); */
         /* background: -webkit-linear-gradient(135deg, rgba(156, 39, 176, 0.75) 0%, rgba(156, 39, 176, 0.65) 100%); */
-		background: rgba(255, 87, 34, 0.75);
-        background: linear-gradient(45deg, rgba(255, 87, 34, 0.75) 0%, rgba(255, 87, 34, 0.65) 100%);
-        background: -moz-linear-gradient(135deg, rgba(255, 87, 34, 0.75) 0%, rgba(255, 87, 34, 0.65) 100%);
-        background: -webkit-linear-gradient(135deg, rgba(255, 87, 34, 0.75) 0%, rgba(255, 87, 34, 0.65) 100%);
+		background: rgba(105,240,174, 0.75);
+        background: linear-gradient(45deg, rgba(105,240,174, 0.75) 0%, rgba(105,240,174, 0.65) 100%);
+        background: -moz-linear-gradient(135deg, rgba(105,240,174, 0.75) 0%, rgba(105,240,174, 0.65) 100%);
+        background: -webkit-linear-gradient(135deg, rgba(105,240,174, 0.75) 0%, rgba(105,240,174, 0.65) 100%);
     }
 
     /* 16% { */
@@ -652,10 +652,10 @@ header .go-back i {
         /* background: -moz-linear-gradient(135deg, rgba(156, 39, 176, 0.75) 0%, rgba(156, 39, 176, 0.65) 100%); */
         /* background: -webkit-linear-gradient(135deg, rgba(156, 39, 176, 0.75) 0%, rgba(156, 39, 176, 0.65) 100%); */
 		
-		background: rgba(255, 87, 34, 0.75);
-        background: linear-gradient(45deg, rgba(255, 87, 34, 0.75) 0%, rgba(255, 87, 34, 0.65) 100%);
-        background: -moz-linear-gradient(135deg, rgba(255, 87, 34, 0.75) 0%, rgba(255, 87, 34, 0.65) 100%);
-        background: -webkit-linear-gradient(135deg, rgba(255, 87, 34, 0.75) 0%, rgba(255, 87, 34, 0.65) 100%);
+		background: rgba(105,240,174, 0.75);
+        background: linear-gradient(45deg, rgba(105,240,174, 0.75) 0%, rgba(105,240,174, 0.65) 100%);
+        background: -moz-linear-gradient(135deg, rgba(105,240,174, 0.75) 0%, rgba(105,240,174, 0.65) 100%);
+        background: -webkit-linear-gradient(135deg, rgba(105,240,174, 0.75) 0%, rgba(105,240,174, 0.65) 100%);
     }
 
     /* 16% { */
