@@ -120,6 +120,17 @@
     
   </li>
   
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/navigate" class="waves-effect waves-light">
+      
+      <i class="fas fa-location-arrow" style="zoom: 0.6;"></i>
+      
+      <span>导航</span>
+    </a>
+    
+  </li>
+  
   <li>
     <a href="#searchModal" class="modal-trigger waves-effect waves-light">
       <i id="searchIcon" class="fas fa-search" title="搜索" style="zoom: 0.85;"></i>
@@ -208,6 +219,17 @@
 			    <i class="fa-fw fas fa-address-book"></i>
 			
 			友情链接
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/navigate" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-location-arrow"></i>
+			
+			导航
 		</a>
           
         </li>
@@ -336,6 +358,16 @@
 
 
 
+    <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=true" class="tooltipped" target="_blank" data-tooltip="微信联系我" data-position="top" data-delay="50">
+        <i class="fab fa-wechat"></i>
+    </a>
+
+
+
+    <a href="https://space.bilibili.com/392756312" class="tooltipped" target="_blank" data-tooltip="访问我的B站" data-position="top" data-delay="50"> 
+		<i class="fa fa-bilibili"></i>
+	</a>
+
 
 
 
@@ -372,6 +404,16 @@
 
 
 
+    <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=true" class="tooltipped" target="_blank" data-tooltip="微信联系我" data-position="top" data-delay="50">
+        <i class="fab fa-wechat"></i>
+    </a>
+
+
+
+    <a href="https://space.bilibili.com/392756312" class="tooltipped" target="_blank" data-tooltip="访问我的B站" data-position="top" data-delay="50"> 
+		<i class="fa fa-bilibili"></i>
+	</a>
+
 
 
 
@@ -383,7 +425,7 @@
                     </div>
                 </div>
 
-                <div class="introduction center-align" data-aos="fade-up"></div>
+               <!-- <div class="introduction center-align" data-aos="fade-up"></div>
 
                 <style type="text/css">
     #posts-chart,
@@ -557,11 +599,11 @@
 
                 
 
-                
+                   -->
 
             </div>
         </div>
-		<div class="card">
+		<!--<div class="card">
 			 <div class="card-content">
 				 <div class="card-content article-card-content">
 					 <div class="title center-align" data-aos="zoom-in-up">
@@ -572,7 +614,7 @@
 						 </div>
 				   </div>
 			  </div>
-		</div>
+		</div>-->
     </div>
 </main>
 
@@ -736,6 +778,16 @@
 
 
 
+    <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=true" class="tooltipped" target="_blank" data-tooltip="微信联系我" data-position="top" data-delay="50">
+        <i class="fab fa-wechat"></i>
+    </a>
+
+
+
+    <a href="https://space.bilibili.com/392756312" class="tooltipped" target="_blank" data-tooltip="访问我的B站" data-position="top" data-delay="50"> 
+		<i class="fa fa-bilibili"></i>
+	</a>
+
 
 
 
@@ -868,21 +920,19 @@ $(function () {
     <script src="/libs/lightGallery/js/lightgallery-all.min.js"></script>
     <script src="/js/matery.js"></script>
 	
+	<!-- 网页标题切换特效 -->
 	<script type="text/javascript">
 		var OriginTitile=document.title,st;
 		document.addEventListener("visibilitychange",function(){
-			document.hidden?(document.title="(Ծ‸Ծ)你会回来的对吗",clearTimeout(st)):(document.title="(*^▽^*)我就知道",st=setTimeout(function(){document.title=OriginTitile},3e3))
+			document.hidden?(document.title="你会回来的对吗",clearTimeout(st)):(document.title="我就知道你舍不得",st=setTimeout(function(){document.title=OriginTitile},3e3))
 		})
 	</script>
 	
-	<script src="/js/ceshi.js"></script>
-	<script src="/js/yinghua.js"></script>
-	<script src="/js/xuehua.js"></script>
-	<script src="/js/cursor.js"></script>
+	<script src="/js/yinghua.js"></script>	<!-- 樱花特效 -->
+	<script src="/js/xuehua.js"></script> 	<!-- 雪花特效 -->
+	<script src="/js/cursor.js"></script>	<!-- 鼠标滑过星星掉落 -->
 
-	<canvas class="fireworks" style="position: fixed;left: 0;top: 0;z-index: 1; pointer-events: none;" ></canvas> 
-	<script type="text/javascript" src="//cdn.bootcss.com/animejs/2.2.0/anime.min.js"></script> 
-	<script type="text/javascript" src="/js/fireworks.js"></script>
+
 
     <!-- Baidu Analytics -->
 
@@ -963,6 +1013,6 @@ $(function () {
             }
           }
         });
-        </script></body>
+        </script><script>(function(w,d, s, id) {w.webpushr=w.webpushr||function(){(w.webpushr.q=w.webpushr.q||[]).push(arguments)};var js, fjs = d.getElementsByTagName(s)[0];js = d.createElement(s); js.id = id;js.src = 'https://cdn.webpushr.com/app.min.js';fjs.parentNode.appendChild(js);}(window,document, 'script', 'webpushr-jssdk'));webpushr('init','AEGlpbdgvBCWXqXI6PtsUzobY7TLV9gwJU8bzMktrwfrSERg_xnLVbjpCw8x2GmFmi1ZcLTz0ni6OnX5MAwoM88');</script></body>
 
 </html>

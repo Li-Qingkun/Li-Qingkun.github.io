@@ -1,1 +1,8 @@
 /* Here is your custom css styles. */
+@font-face{
+	font-family: 'myFont';
+	src: url('../font/江西拙楷2.0.ttf');
+}
+body{
+	font-family: 'myFont';
+}
